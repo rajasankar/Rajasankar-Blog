@@ -19,66 +19,7 @@
     </section>
 
     <section class="main-content">
-      <p>Machine Learning Algorithm takes Grammar Exam</p>
-
-<p>What happens if a algorithm takes a Grammar Exam? Would it pass? </p>
-
-<p>Well, it seems that it can. </p>
-
-<p>I have created <a href="http://naturaltext.com">Grammar Checker for English</a> using pattern rules mined by a ML algorithm. One of the ways to check the efficiency of the algorithm is to feed the incorrect/missing lines and check if it finds correct answer. For missing/incorrect word, algorithm suggests words which could be found. </p>
-
-<p>So what is the result?</p>
-
-<p>For a total of 881 lines fed, algorithm finds only exact matches for 47 lines. A mere 5% of the total lines. However, for 144 lines, exact word is in top 5 words suggested. For 204 words, the exact word is in top 10 words suggested. It found the correct word for 560 lines but those words were deep buried in the suggested words. </p>
-
-<table>
-<thead>
-<tr>
-<th>Test</th>
-<th>Answered</th>
-<th>Percentage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Correct answer found</td>
-<td>47</td>
-<td>5%</td>
-</tr>
-<tr>
-<td>Answer in top 5 suggestions</td>
-<td>144</td>
-<td>16%</td>
-</tr>
-<tr>
-<td>Answer in top 10 suggestions</td>
-<td>204</td>
-<td>23%</td>
-</tr>
-<tr>
-<td>Answer found</td>
-<td>560</td>
-<td>63%</td>
-</tr>
-</tbody>
-</table>
-
-<p>Algorithm only used 20GB of raw text data, so it may not have all the available data to find correct answer for most of the lines. In age of petabytes of data, 20 GB may be very small to have any desired effect. But it still finds answers for 20% of questions. </p>
-
-<p>for the question, <em>_____ your boyfriend is waiting for you outside in the car.</em></p>
-
-<p>The answer is <strong>Barbara</strong>. But if the word is not in data, it may not possible for the algorithm to find it. Algorithm may find other words which would be grammatically correct too. </p>
-
-<p>Another issue is, algorithm couldn't differentiate between <em>Roman number I</em> and word <em>I</em>. So, it finds, <strong>I is</strong> also correct. </p>
-
-<p>There are cases where the answer is incorrect but algorithm returns grammatically correct answer too. For this question, <em>I certainly will if I _____</em>, the answer is <strong>can</strong> but algorithm returned <strong>considered,</strong> which could be correct too. </p>
-
-<p>What happens if more data is added and retrain? Answering percentage may improve. Can the accuracy of the system can be improved with existing data? May be possible to improving the suggested words ranking and finding a way to avoiding <strong>I is</strong> kind of errors. </p>
-
-<p>Results are available as a csv too. </p>
-
-<p>In coming days, I will keep tweaking algorithm and posting the results. </p>
-
+    
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/rajasankar/blog">Blog</a> is maintained by <a href="https://github.com/rajasankar">rajasankar</a>.</span>
 
