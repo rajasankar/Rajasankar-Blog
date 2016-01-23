@@ -19,38 +19,8 @@
     </section>
 
     <section class="main-content">
-      <h1>
-<a id="inferring-structure-from-text-without-tagged-corpus" class="anchor" href="#inferring-structure-from-text-without-tagged-corpus" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Inferring structure from text without tagged corpus</h1>
-
-<p>In Natural Language Processing, the standard method is to have a tagged corpus to train the algorithm, if the algorithm works, it can be used to generate models which in turn can be used to process new information.</p>
-
-<p>How about trying to extract names, places, unique expressions etc without using a tagged corpus? </p>
-
-<p>Our <strong>NaturalText algorithm</strong> discussed here is doing exactly that. </p>
-
-<p>The algorithm works by processing the full text, trying to find the patterns. Once, patterns were generated, then the patterns were generalized to get the unique words. </p>
-
-<p>Data set used for this is <a href="http://www.statmt.org/europarl/">EU parliament corpus</a></p>
-
-<p>Corpus contains <strong>330k unique words</strong>, after the algorithm processed the text, unique words is <strong>530k</strong>. Size of Corpus is <em>54 million words</em>.</p>
-
-<p>How many unique words extracted by the algorithm? 277K words or <em>52%</em> of unique words. </p>
-
-<p>Download the <a href="">total extracted words</a>. </p>
-
-<p>Algorithm took <strong>8 hours</strong> to extract words in AMD processor with 16 GB memory running python on Ubuntu. </p>
-
-<p>What about the accuracy of the extracted words? </p>
-
-<p>As this algorithm used raw text, I haven't ran those metrics. Next step would be that. Using pre-tagged data would be a easier to do this. <a href="http://ebiquity.umbc.edu/blogger/2013/05/01/umbc-webbase-corpus-of-3b-english-words/">UMBC WebBase corpus</a> or <a href="https://www.anc.org/data/oanc/download/">OANC_GrAF corpus</a> could be used for this. I am also planning to use some scientific texts too. </p>
-
-<p>What is the unique about this algorithm compared to all the Natural Language Processing algorithms out there?</p>
-
-<p>This algorithm can be applied to any text to extract the information. This can be applied <em>any language without requiring tagged Corpus</em>. This can be applied to text of any domain/field. </p>
-
-<p>I think algorithm may be used to find relationship between words or extracting facts from the text. Even the synonym/antonym or sentiments. </p>
-
-<p>I will keep posting the results. </p>
+      <h2>
+<a id="test" class="anchor" href="#test" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Test</h2>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/rajasankar/blog">Blog</a> is maintained by <a href="https://github.com/rajasankar">rajasankar</a>.</span>
