@@ -1,1 +1,7 @@
-{"name":"Blog","tagline":"","body":"###TEST","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
+{
+  "name": "Blog",
+  "tagline": "",
+  "body": "###Mining Similar Lines from Scientific papers using Machine Learning\r\n\r\nFor a researcher working with thousands of the research papers, finding relevant papers is a daunting task. Usually, searching by authors name or using referenced/cited papers, one could find relevant papers. There are tools to annotate the pdfs, collecting reference papers to make life easier for scientists and researchers. \r\n\r\nEven with all those things, a researcher still would need to read 100s of papers or skim thorough 1000s of papers to find needed information. This would consume most of the time spent to do the research. \r\n\r\nAnother issue is redundancy. If a researcher/scientist starts a work, he needs to ensure that no one in the world already researched on that specific topic. Lot of scientist after they finished the research found that some one else already did what they just finished. \r\n\r\nEven just to check all the published papers is beyond human capacity. It is impossible even to comprehend the size of the information available. With advent of machine learning techniques, these issues can be solved. \r\n\r\nOne of the major thing is finding similar lines in corpus of scientific papers. \r\n\r\n",
+  "google": "",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
