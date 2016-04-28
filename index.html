@@ -26,11 +26,27 @@
 
 <p>Even with all those things, a researcher still would need to read 100s of papers or skim thorough 1000s of papers to find needed information. This would consume most of the time spent to do the research. </p>
 
-<p>Another issue is redundancy. If a researcher/scientist starts a work, he needs to ensure that no one in the world already researched on that specific topic. Lot of scientist after they finished the research found that some one else already did what they just finished. </p>
+<p>Another issue is redundancy. If a researcher/scientist starts a work, he needs to ensure that no one in the world already researched on that specific topic. Lot of scientists, after they finished the research found that some one else already did what they just finished. </p>
 
 <p>Even just to check all the published papers is beyond human capacity. It is impossible even to comprehend the size of the information available. With advent of machine learning techniques, these issues can be solved. </p>
 
-<p>One of the major thing is finding similar lines in corpus of scientific papers. </p>
+<p>One solution is finding similar lines between papers thus identifying related papers. Our NaturalText algorithm uses grammar to find similar lines. </p>
+
+<p>2200 papers downloaded from NIPS(<a href="https://papers.nips.cc/">https://papers.nips.cc/</a>) used for this analysis. The algorithm found more than 100 similar lines in 82 papers. Those lines were taken for around 95% accuracy and verified manually. </p>
+
+<p>Those similar lines include lines in a algorithm</p>
+
+<blockquote>
+<p>2: while convergence criteria is not met do 3: Sample a subset S of node pairs.
+2: while convergence criteria is not met do 3: Sample a mini-batch S of nodes.</p>
+</blockquote>
+
+<p>Abbreviation expanded in two lines </p>
+
+<blockquote>
+<p>The label complexity of standard DBAL is measured in terms of the dis- agreement coef\ufb01cient.
+The label complexity of disagreement-based active learning is characterized in terms of the disagreement coef\ufb01cient.</p>
+</blockquote>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/rajasankar/blog">Blog</a> is maintained by <a href="https://github.com/rajasankar">rajasankar</a>.</span>
